@@ -34,7 +34,7 @@
 
     Separador
 
-    #t-3-1.titulo-segundo.color-acento-contenido
+    #t-3-1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.1 Tipos de cruzamientos 
 
 

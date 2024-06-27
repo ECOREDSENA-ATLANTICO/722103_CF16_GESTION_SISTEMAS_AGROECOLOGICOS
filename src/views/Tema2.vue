@@ -135,9 +135,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Enlace web
-                  p.mb-0 Construcción biofábrica
-                  p A continuación, puede revisar el documento para la construcción de la biofábrica de la regional Cauca y el Centro Agropecuario del SENA hecho por una de sus instructoras. 
+                  h3.mb-1 Descripción de cada raza porcina 
+                  p En el siguiente documento se podrán conocer a profundidad las características fundamentales de cada una de las razas en esta categoría. 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Descripcion de cada raza porcina.pdf')" target="_blank" type="application/pdf")
                     span Enlace
@@ -150,7 +149,7 @@
         .row.justify-content-center.align-items-center.mb-5.fnd-9-.p-5
           .col-lg-8
             h3 Razas de ganado 
-            p Los bovinos se dividen en dos grandes grupos: los bos taurus, animales de origen europeo pesados y de gran tamaño, pocos precoces de gran estatura y fortaleza especialistas para la producción de leche y carne. Los bos indicus son animales de origen asiático de crecimiento lento (muy poca precocidad), son de gran tamaño con extremidades largas, de pelo corto con giba, cola y orejas grandes y largas. Estos dos están dispersos a nivel mundial y son utilizados según sus características, tanto así que se han realizado cruzamientos entre estos para buscar sus mejores beneficios. 
+            p Los bovinos se dividen en dos grandes grupos: los <em>bos taurus</em>, animales de origen europeo pesados y de gran tamaño, pocos precoces de gran estatura y fortaleza especialistas para la producción de leche y carne. Los <em>bos indicus</em> son animales de origen asiático de crecimiento lento (muy poca precocidad), son de gran tamaño con extremidades largas, de pelo corto con giba, cola y orejas grandes y largas. Estos dos están dispersos a nivel mundial y son utilizados según sus características, tanto así que se han realizado cruzamientos entre estos para buscar sus mejores beneficios. 
           .col-lg-4.p-5
             figure 
               img(src='@/assets/curso/temas/tema2/img-10.svg', alt='') 
@@ -158,8 +157,8 @@
     p En el siguiente recurso educativo se presentan las diferentes razas de ganado:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/kFRi64XzmBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.fnd-9-

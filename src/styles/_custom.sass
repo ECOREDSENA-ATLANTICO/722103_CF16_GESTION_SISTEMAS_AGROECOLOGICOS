@@ -46,10 +46,6 @@
   left: 7%
   animation: appearDisappear 4s ease-in-out infinite
 
-
-
-
-
 .fnd-1
   background-color: #FFE9E1 !important
 .fnd-1-
@@ -72,6 +68,8 @@
   margin: 10px  
 .fnd-5 
   background-color: #12263F  !important
+.fnd-5-
+  background-color: #E8E8E8  !important  
 .fnd-6
   background-color:   #12263F  !important
   p 
@@ -295,4 +293,38 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
   &__txt
     flex: 1 
     order: 2    		    
+
+.img-fnd-flot
+  position: relative
+  width: 100%
+  .fl-box
+    background-color: #D2E1F1
+    color: #fff
+    padding: 20px
+    border-radius: 1rem
+    margin-top: 1rem
+  .b-img
+    display: none
+  @media (min-width: 1200px)
+    .b-img
+      display: block
+      width: 100%
+    .fl-box
+      position: absolute
+    
+      top: 44%
+      left: 50%
+      transform: translate(-50%, -50%)
+      width: 80%
+      background-color: #D2E1F100
+      color: #fff
+      padding: 20px
+
+      border-radius: 1rem
+      p
+        color: black
+
+
+
+
 

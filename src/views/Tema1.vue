@@ -47,7 +47,7 @@
           p.pt-5.px-5 Es importante tener en cuenta que los genes actúan de igual forma, pero con diferente acción de la siguiente manera: 
           .col-lg-6
             .row.fnd-4 
-              p.mb-0 <b>● Dominancia</b> este gen se expresa de acuerdo a su alelo y este puede ser completo, incompleto o sobre dominante (heterocigoto, perteneciente a células sexuales con diferentes dotaciones genéticas).
+              p.mb-0 <b>● Dominancia:</b> este gen se expresa de acuerdo a su alelo y este puede ser completo, incompleto o sobre dominante (heterocigoto, perteneciente a células sexuales con diferentes dotaciones genéticas).
             .row.fnd-4
               p.mb-0 <b>● Aditividad:</b> el gen es independiente al alelo.
             .row.fnd-4
@@ -59,7 +59,7 @@
 
     Separador
 
-    #t-1-1.titulo-segundo.color-acento-contenido
+    #t-1-1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.1 Herencia de caracteres
 
 
@@ -97,7 +97,7 @@
 
     Separador
 
-    #t-1-2.titulo-segundo.color-acento-contenido
+    #t-1-2.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 1.2 Genotipo y fenotipo 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-10
@@ -145,25 +145,27 @@
 
 
     .row.justify-content-center.align-items-center(data-aos="zoom-in-right")
-      .col-lg-12.justify-content-center.align-items-center
-        .row.mb-5.fondo-2.mx-5.px-5.justify-content-center.align-items-center
-            .row.p-5.justify-content-center.align-items-center
-              .col-lg-1
-                figure 
-                  img.img-95(src='@/assets/curso/temas/tema1/img-10.svg', alt='')
-              .col-lg-11
-                p Tenga en cuenta que en los grupos de animales las características genotípicas y fenotípicas se pueden evaluar más fácilmente, cuando se utilizan los diferentes cruces, pues la información de los genes se trasmite en los descendientes resultantes al pasar de generación en generación de acuerdo con las leyes mendelianas.
-
+      .col-lg-12
+        .img-fnd-flot.mb-3
+          img.b-img(src='@/assets/curso/temas/tema1/fnd-2.svg' alt='Background Image')
+          .fl-box
+            .row.align-items-center
+              
+              .col-lg-2
+                  figure 
+                    img.img-95(src='@/assets/curso/temas/tema1/img-10.svg', alt='')
+              .col-lg-10
+                p.mb-0 Tenga en cuenta que en los grupos de animales las características genotípicas y fenotípicas se pueden evaluar más fácilmente, cuando se utilizan los diferentes cruces, pues la información de los genes se trasmite en los descendientes resultantes al pasar de generación en generación de acuerdo con las leyes mendelianas.
 
     Separador
 
-    #t-1-3.titulo-segundo.color-acento-contenido
+    #t-1-3.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 1.3 Selección y métodos 
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-6
         p La selección es el proceso en el cual se obtienen o escogen los individuos de una generación para dejarlos como reproductores u otro fin. Este proceso permite elegir los animales con características genotípicas y fenotípicas deseables, para realizarlo se deben tener en cuenta dos pasos muy importantes, el primero consiste en la identificación del animal y segundo la selección del animal el cual será utilizado como padre para las siguientes generaciones.
-        p Es importante escoger el animal de acuerdo con el color, tasa de crecimiento, condición corporal, producción de leche, índices reproductivos y productivos, entre otros conozcamos la producciones de selección:
+        p Es importante escoger el animal de acuerdo con el color, tasa de crecimiento, condición corporal, producción de leche, índices reproductivos y productivos, entre otros conozcamos las producciones de selección:
       .col-lg-6
         figure 
           img(src='@/assets/curso/temas/tema1/img-11.png', alt='')
@@ -199,7 +201,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-14-.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Selección por pedigree  
+              h5 Selección por <em>pedigree</em>   
               p Es el registro de aquellos individuos que están emparentados o relacionados con el reproductor. La base genética se basa en que el individuo recibe la mitad de los genes del padre. Esta selección consiste en el registro de desempeño de los padres y así ver la capacidad de los individuos de descendencia.
 
 
@@ -208,20 +210,20 @@
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-15.png')})`}")
             .tarjeta-slide__contenido.pt-4.p-xl-5.px-5
               h5 Selección basada en los parientes colaterales (familia)
-              p En esta selección se tiene en cuenta los parientes que no son descendientes, y que tengan genes en común y que, probablemente, se transmitirán en la descendencia. <br> Si la información sobre los parientes colaterales es completa puede dar luces sobre  las clases y combinaciones de genes que el individuo en cuestión probablemente posea. 
+              p En esta selección se tiene en cuenta los parientes que no son descendientes y que tengan genes en común y que probablemente, se transmitirán en la descendencia. <br> Si la información sobre los parientes colaterales es completa puede dar luces sobre  las clases y combinaciones de genes que el individuo en cuestión probablemente posea. 
 
 
         .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-16.png')})`}")
-            .tarjeta-slide__contenido.px-4.p-xl-5
+            .tarjeta-slide__contenido.pt-4.p-xl-5.px-5
               h5 Selección por pruebas de progenie
               p Es una selección muy precisa y consiste en seleccionar animales de acuerdo con su descendencia para escoger los padres de los cuales se revisan características como peso al destete, condición corporal, entre otras.
 
 
     Separador
 
-    #t-1-4.titulo-segundo.color-acento-contenido
+    #t-1-4.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 1.4 Rusticidad 
 
     .row.justify-content-center(data-aos="zoom-in-left")
@@ -260,12 +262,12 @@
                 p.mt-2 Resistir diferentes enfermedades o infecciones que pueden presentarse en el contexto donde se desenvuelve.         
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-8.fnd-1-.p-5
-            p Adquirir las virtudes de rusticidad depende de las razas que se utilicen en las explotaciones, pues estas se adaptan mediante el sistema biológico que posee el animal, una de las especies más comunes en adquirir estos comportamientos son las especies bos indicus en los bovinos y los porcinos las razas duroc.                    
+            p Adquirir las virtudes de rusticidad depende de las razas que se utilicen en las explotaciones, pues estas se adaptan mediante el sistema biológico que posee el animal, una de las especies más comunes en adquirir estos comportamientos son las especies bos indicus en los bovinos y los porcinos las razas <em>duroc</em>.                    
 
 
     Separador
 
-    #t-1-5.titulo-segundo.color-acento-contenido
+    #t-1-5.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.5 Adaptabilidad 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
@@ -304,7 +306,7 @@
 
     Separador
 
-    #t-1-6.titulo-segundo.color-acento-contenido
+    #t-1-6.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.6 Consanguinidad
 
     .row.justify-content-center.align-items-center.mb-5.fondo-4.p-4(data-aos="zoom-in-right")
