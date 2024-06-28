@@ -31,6 +31,18 @@
           h5 Figura 1.
           span Planeación para cruzamientos
 
+        
+          
+        .tarjeta--container.row
+          .col-md.tarjeta.color-acento-botones.p-5.fnd-8           
+            h4.text-center Métodos de selección.
+            p.text-center Seleccionar por una característica, por ejemplo, por tamaño, producción de leche. Se puede hacer una selección escalonada.
+          .col-md.tarjeta.color-acento-botones.p-5           
+            h4.text-center Niveles de descarte
+            p.text-center Si el animal falla y no cumple con los parámetros deseados se descarta.
+          .col-md.tarjeta.color-acento-contenido.p-5            
+            h4.text-center Selección por índice
+            p.text-center Se seleccionan varias características y la sobresaliente compensa la inferior (progreso genético).
 
     Separador
 
