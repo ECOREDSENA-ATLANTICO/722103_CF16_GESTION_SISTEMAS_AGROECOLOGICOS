@@ -251,8 +251,6 @@ export default {
     {
       referencia:
         'Molina, M. (2019). Mejoramiento animal. Facultad de Ciencias Agropecuarias FCA.',
-      link:
-        'http://www.agro.unc.edu.ar/~wpweb/mejoramientoanimal/wp-content/uploads/sites/13/2017/09/Material-de-Apoyo-2019.pdf',
     },
     {
       referencia: 'Roldán, G. (2014). Mejoramiento animal. Punto Ganadero.',
@@ -261,8 +259,6 @@ export default {
     {
       referencia:
         'Rodero, E. (2000). El concepto de raza, un enfoque epistemológico. Sitio Argentino de Producción Animal.',
-      link:
-        'https://www.produccion-animal.com.ar/informacion_tecnica/razas_bovinas/52-concepto_razas.pdf',
     },
   ],
   creditos: [

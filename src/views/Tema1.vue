@@ -238,7 +238,7 @@
     
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-6
-            figure 
+            figure.mb-3 
               img(src='@/assets/curso/temas/tema1/img-18.svg', alt='')
 
           .col-lg-6 
