@@ -63,11 +63,11 @@
       h2 1.1 Herencia de caracteres
 
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5.fnd-5(data-aos="zoom-in-left")
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5.fnd-5-(data-aos="zoom-in-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-6.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto.p-4.fnd-5-1
         p.mb-0 La herencia es el resultado de las características que los seres vivos transmiten a sus progenitores, esta se da por medio de los genes del individuo, contiene la información en el cromosoma y se expresa en el ADN. Estos caracteres pueden visualizarse de cuatro formas de genes en el individuo que se exponen en el siguiente material: 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-lg-10
@@ -101,11 +101,11 @@
       h2 1.2 Genotipo y fenotipo 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-10
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5.fnd-2
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5.fnd-5-
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-8.png')})`}"
           )
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__texto.p-4.fnd-5-1
             p.mb-0 El fenotipo se identifica con las características físicas y perceptibles al ojo humano de un individuo y los ejemplos más comunes son el color del pelo, longitud de los cuernos, peso del destete, entre otros. El fenotipo puede ser modificado por el ambiente pues este cambia en el transcurso de la vida de los animales como respuesta a los factores climáticos. En resumen, el fenotipo es genotipo + medio ambiente = fenotipo.
 
         p.mb-5  Para entender mejor la diferencia de estos dos términos, se invita a revisar con atención el siguiente recurso:
@@ -236,7 +236,11 @@
             p La rusticidad se da a través de la selección natural y está relacionado con producción extensiva en donde el ser humano interviene muy poco; esta se da en ambientes naturales, es decir que el medio no se modifica, más bien es el animal el que debe adaptarse a las variaciones del medio.
             p La rusticidad es la capacidad que tiene el animal para:
     
-        .row.justify-content-end.align-items-center.mb-5.fondo-3
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-6
+            figure 
+              img(src='@/assets/curso/temas/tema1/img-18.svg', alt='')
+
           .col-lg-6 
             .row.align-items-center.fnd-9.justify-content-start.mb-3
               .col-2
@@ -275,7 +279,7 @@
         p Es la capacidad de los animales de producción, para sobrevivir y ser eficiente en cualquier lugar o situación y esta se desarrolla frente a una necesidad biológica ambiental, además, es difícil de evaluar, pues no depende solo de la genética de la especie, sino de otras circunstancias que los rodea como, por ejemplo, el tipo de alimentación u otras actividades diarias que se realizan. Por lo general, es ajustar rápidamente una especie a un cambio repentino y casi siempre se relaciona con algo ambiental. 
         .cajon.color-acento-contenido.px-4.py-3.mb-4.fnd-1
           p.mb-0 Los animales que logran adaptarse se caracterizan por alta producción, buenas condiciones corporales, alta eficacia reproductiva, longevidad, entre otras.
-        p Se invita a dar clic en cada botón para identificar en qué consiste cada tipo de adaptabilidad.
+        p A continuación los tres tipos de adaptabilidad.
       
       .col-lg-6
         figure 
@@ -288,49 +292,48 @@
             h5.text-center Biológica
           .col-lg-4
             figure 
-              img(src='@/assets/curso/temas/tema1/img-20.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/img-20.svg', alt='Muestra en componente formativo los tipos de adaptabilidad: Biológica: características de que tiene en cuenta los cambios a nivel fenotípico y molecular que experimentan los organismos con el tiempo. Genética: características animales heredables que favorecen la supervivencia de una población en un medio determinado. En el contexto fisiológico la adaptación es utilizada para detallar el ajuste del ajuste del fenotipo de un organismo a su ambiente. Esto se llama adaptabilidad, adaptación fisiológica o aclimatación')
       .col-lg-3.fnd-4-.p-3
         .row.justify-content-center.align-items-center
           .col-lg-8
             h5.text-center Genética
           .col-lg-4
             figure 
-              img(src='@/assets/curso/temas/tema1/img-21.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/img-21.svg', alt='Muestra en componente formativo los tipos de adaptabilidad: Biológica: características de que tiene en cuenta los cambios a nivel fenotípico y molecular que experimentan los organismos con el tiempo. Genética: características animales heredables que favorecen la supervivencia de una población en un medio determinado. En el contexto fisiológico la adaptación es utilizada para detallar el ajuste del ajuste del fenotipo de un organismo a su ambiente. Esto se llama adaptabilidad, adaptación fisiológica o aclimatación')
       .col-lg-3.fnd-4-.p-3
         .row.justify-content-center.align-items-center
           .col-lg-8
             h5.text-center Fisiológica 
           .col-lg-4
             figure 
-              img(src='@/assets/curso/temas/tema1/img-22.svg', alt='')              
+              img(src='@/assets/curso/temas/tema1/img-22.svg', alt='Muestra en componente formativo los tipos de adaptabilidad: Biológica: características de que tiene en cuenta los cambios a nivel fenotípico y molecular que experimentan los organismos con el tiempo. Genética: características animales heredables que favorecen la supervivencia de una población en un medio determinado. En el contexto fisiológico la adaptación es utilizada para detallar el ajuste del ajuste del fenotipo de un organismo a su ambiente. Esto se llama adaptabilidad, adaptación fisiológica o aclimatación')              
 
     Separador
 
     #t-1-6.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.6 Consanguinidad
-
-    .row.justify-content-center.align-items-center.mb-5.fondo-4.p-4(data-aos="zoom-in-right")
-      .col-lg-2
-        figure 
-          img.img-195(src='@/assets/curso/temas/tema1/img-23.png', alt='')    
-      .col-lg-8
-        p Es la relación de genes cuando se aparean animales emparentados con antepasados comunes, por lo general hasta en cuatro generaciones esta puede traer consecuencias en los nuevos individuos. 
-        p Los tipos de consanguinidad se profundizan en el siguiente material:
- 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        .img-fnd-flot2.mb-3
+          img.b-img2(src='@/assets/curso/temas/tema1/img-23-.png' alt='Background Image')
+          .fl-box2
+            .b-img3
+              img.b-img3.mb-3(src='@/assets/curso/temas/tema1/img-23.png' alt='Background Image')
+            p.m-t Es la relación de genes cuando se aparean animales emparentados con antepasados comunes, por lo general hasta en cuatro generaciones esta puede traer consecuencias en los nuevos individuos. 
+            p Los tipos de consanguinidad se profundizan en el siguiente material:
+		
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-10
         h3 Tipos de consanguinidad     
         p Haga clic sobre los tipos de consanguinidad para ver mas: 
 
-
-
-      ImagenInfograficaB.color-primario.dott
+      ImagenInfograficaB.color-secundario.dott
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/tema1/img-24.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/img-24.svg', alt='Muestra los tipos de consanguinidad: Consanguinidad estrecha Esta se da cuando se aparean animales con características muy cercanas. Padre: hija, madre: hijo o hermanas: hermanos. Esta aumenta el grado de homocigosis (genes idénticos) dando como resultado que genes no deseables se expresen y poder eliminar con facilidad. Consanguinidad abierta Se aparean animales con un grado de parentesco más lejano. Tío: sobrino o medio hermano con hermana. Este se realiza para preservar una característica de una raza.')
             
 
-        div(x="43%" y="92.4%" tooltip="Consanguinidad estrecha")
+        div(x="42.5%" y="92.6%" tooltip="Consanguinidad estrecha")
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-8
               figure 
@@ -340,7 +343,7 @@
                 h5 Consanguinidad estrecha 
                 p Esta se da cuando se aparean animales con características muy cercanas. Padre: hija, madre: hijo o hermanas: hermanos. Esta aumenta el grado de homocigosis (genes idénticos) dando como resultado que genes no deseables se expresen y poder eliminar con facilidad.
 
-        div(x="80.8%" y="92.7%" tooltip="Consanguinidad abierta")
+        div(x="79.8%" y="92.8%" tooltip="Consanguinidad abierta")
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-8
               figure 

@@ -44,10 +44,10 @@
         ImagenInfograficaB.color-acento-botones.dott3
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema3/img-3.png')
+              img(src='@/assets/curso/temas/tema3/img-3-.png',alt="Muestra los tipos de cruzamientos para un proceso de reproducción: De primera generación, Nueva raza compuesta, Sustitución racial, Cruces alternos")
               
 
-          div(x="58.8%" y="17.7%" tooltip="De primera generación" numero="1")
+          div(x="70.3%" y="19.2%" tooltip="De primera generación" numero="1")
             .row.justify-content-center.mb-5
               .col-lg-6.fnd-13.p-3
                 figure 
@@ -59,7 +59,7 @@
                 figure 
                   img.img-420(src='@/assets/curso/temas/tema3/img-6.svg', alt='') 
 
-          div(x="67.1%" y="42.7%" tooltip="Nueva raza compuesta" numero="2")
+          div(x="78.1%" y="43.2%" tooltip="Nueva raza compuesta" numero="2")
             .row.justify-content-center.mb-5
               .col-lg-6.fnd-13.p-3
                 figure 
@@ -71,7 +71,7 @@
                 figure 
                   img.img-420(src='@/assets/curso/temas/tema3/img-8.svg', alt='') 
 
-          div(x="46.9%" y="58.1%" tooltip="Sustitución racial" numero="3")
+          div(x="59.2%" y="57.9%" tooltip="Sustitución racial" numero="3")
             .row.justify-content-center.mb-5
               .col-lg-6.fnd-13.p-3
                 figure 
@@ -83,7 +83,7 @@
                 figure 
                   img.img-420(src='@/assets/curso/temas/tema3/img-10.png', alt='') 
 
-          div(x="76.9%" y="78.2%" tooltip="Cruces alternos" numero="4")
+          div(x="87.1%" y="77.2%" tooltip="Cruces alternos" numero="4")
             .row.justify-content-center.mb-5
               .col-lg-6.fnd-13.p-3
                 figure 
@@ -107,7 +107,7 @@
     ImagenInfografica.color-acento-botones.mb-5.dott4(data-aos="fade-down")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema3/img-4-.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema3/img-4-.png', alt='Muestra el componente formativo de  estructuras subraciales como: Línea, Estirpes, Variedad')
           
 
       .tarjeta.color-acento-contenido.p-3(x="9.1%" y="66.4%" numero="+")

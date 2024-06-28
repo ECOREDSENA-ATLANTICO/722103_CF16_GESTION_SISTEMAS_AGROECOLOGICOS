@@ -65,7 +65,7 @@
         ImagenInfograficaB.color-acento-botones.dott2
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema2/img-4.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-4.png', alt='Muestra las categorías de las razas porcinas de acuerdo con el pelaje y su coloración: Reproductoras o maternas Reproductoras de carne Mixtas Rustica')
               
 
           div(x="8%" y="38.4%" tooltip="Reproductoras o maternas")
