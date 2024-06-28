@@ -254,11 +254,12 @@ export default {
     },
     {
       referencia: 'Roldán, G. (2014). Mejoramiento animal. Punto Ganadero.',
-      link: 'https://puntoganadero.cl/imagenes/upload/_5db8351dc0e21.pdf',
     },
     {
       referencia:
         'Rodero, E. (2000). El concepto de raza, un enfoque epistemológico. Sitio Argentino de Producción Animal.',
+      link:
+        'https://www.produccion-animal.com.ar/informacion_tecnica/razas_bovinas/52-concepto_razas.pdf',
     },
   ],
   creditos: [
