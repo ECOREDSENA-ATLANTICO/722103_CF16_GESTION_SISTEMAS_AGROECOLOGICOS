@@ -11,7 +11,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-4
             figure.mb-5
-              img(src='@/assets/curso/temas/tema1/img-1.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-1.png', alt='')
 
 
           .col-lg-8
@@ -22,20 +22,20 @@
 
       .col-lg-10
         figure.mb-5
-          img(src='@/assets/curso/temas/tema1/img-2.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img-2.svg', alt='')
     
 
     .row.justify-content-center.align-items-center.mb-5.fnd-2(data-aos="zoom-in-left")
       .col-lg-3
         figure
-          img.img-321(src='@/assets/curso/temas/tema1/img-3-.svg', alt='Texto que describa la imagen')
+          img.img-321(src='@/assets/curso/temas/tema1/img-3-.svg', alt='')
       .col-lg-9
         .row.align-items-center
           .col-lg-10
             p Por otro lado, es importante aclarar ciertos conceptos que permitan identificar de manera más clara el objetivo de la genética, entre los que se encuentran el <b>mendelismo complejo</b> que es considerado como una ley relacionada con el no cumplimiento de las leyes de Mendel la cual presenta los genes letales, alelelismo o herencia poligénica.
           .col-lg-2
             figure.mb-5
-              img(src='@/assets/curso/temas/tema1/img-4.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-4.svg', alt='')
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-10.fondo-i.fnd-1.p-5
             p Por otro lado, la<b> teoría cromosómica</b> de la herencia que fue descubierta por Thomas H. Morgan (1909) y determina que los genes están en los cromosomas de manera lineal, determinan los caracteres hereditarios y que hay uno para para cada cromosoma. Los genes son la unidad de la herencia y controlan las labores del cuerpo, estos se representan de una manera cualitativa (con baja influencia en el medio ambiente como el Rh) y las cuantitativas (alta influencia del medio ambiente como la producción de leche).
@@ -55,7 +55,7 @@
 
           .col-lg-5.blq-1
             figure
-              img(src='@/assets/curso/temas/tema1/img-5.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-5.svg', alt='')
 
     Separador
 
@@ -75,22 +75,22 @@
         ImagenInfografica.color-acento-botones.mb-5.dott
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/img-7.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-7-.svg', alt='')
               
 
-          .tarjeta.color-acento-contenido.p-3(x="25.6%" y="26.5%" numero="1")
+          .tarjeta.color-acento-contenido.p-3(x="28.6%" y="21%" numero="1")
             .h5.mb-2 Gen dominante
             p Se conoce también como versión dominante, y hace referencia a los rasgos heredados que,  por diversos motivos, se manifiestan en mayor porcentaje y se observa en el fenotipo del animal. 
 
-          .tarjeta.color-acento-contenido.p-3(x="76.2%" y="26.2%" numero="2")
+          .tarjeta.color-acento-contenido.p-3(x="74.2%" y="21.2%" numero="2")
             .h5.mb-2 Gen recesivo
             p Son los rasgos que se encuentran en el genoma, pero no se representan en el individuo por estar dominado por otro gen. Es decir,  que un gen recesivo <b>se expresa solo en ausencia del dominante.</b> En bovinos, un ejemplo de esto es el gen recesivo para color colorado.
 
-          .tarjeta.color-acento-contenido.p-3(x="9.6%" y="79%" numero="3")
+          .tarjeta.color-acento-contenido.p-3(x="9.5%" y="67%" numero="3")
             .h5.mb-2 Gen codominante.
             p Para este caso se expresan ambos caracteres de igual manera, el recesivo y el dominante. Por ejemplo, al cruzar una <b>vaca blanca</b> con un <b>toro negro</b> y se obtienen descendientes con <b>manchas blancas y negras</b>.
 
-          .tarjeta.color-acento-contenido.p-3(x="90.5%" y="79%" numero="4")
+          .tarjeta.color-acento-contenido.p-3(x="89.1%" y="67%" numero="4")
             .h5.mb-2 Gen intermedio o parcial
             p Para este caso el gen dominante no se manifiesta totalmente, es decir <b>expresa los dos alelos que posee el individuo, pero ninguno de ellos se observa como originalmente es, sino que se ve un fenotipo intermedio.</b> Por ejemplo, pollos naranja y pollos blancos se cruzan, y se obtienen pollos color amarillo.
 
@@ -117,7 +117,7 @@
           ImagenInfografica.color-acento-botones.mb-5.dott
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema1/img-9.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img-9.svg', alt='')
                 
 
             .tarjeta.color-acento-contenido.p-3(x="32.3%" y="8%" numero="1")
