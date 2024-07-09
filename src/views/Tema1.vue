@@ -22,7 +22,7 @@
 
       .col-lg-10
         figure.mb-5
-          img(src='@/assets/curso/temas/tema1/img-2.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img-2.svg', alt='¿Qué son? Son reglas básicas sobre la transmisión por herencia genética de las características de los organismos padres a sus hijos. Se pueden determinar como el fundamento de la genética.	Ley de uniformidad: Esta ley dice que si se cruzan dos razas puras, la descendencia de la primera generación filial será fenotípicamente (físicamente) y genotípicamente igual entre sí. Ley de segregación: Las características a heredar se separan, yendo cada uno a un gameto distinto. Consiste en qué del cruce de dos individuos de la primera generación (Aa) tendrá lugar una segunda generación. Ley de independencia: Las características se transmiten entre generaciones de forma independiente unas con otras.  Por lo tanto, el patrón de herencia de un rasgo como el color de ojos no influye en la transmisión en el patrón de herencia de otro rasgo, como el color del pelo.')
     
 
     .row.justify-content-center.align-items-center.mb-5.fnd-2(data-aos="zoom-in-left")
@@ -75,7 +75,7 @@
         ImagenInfografica.color-acento-botones.mb-5.dott
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/img-7-.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/img-7-.svg', alt='Genotipo, 1.	Hace referencia a la composición genética determinada por el ADN. 2.	Depende de la información hereditaria que es dada de un individuo a otro. 3.	Transmitido hereditariamente de los progenitores a su descendencia. 4.	Contiene toda la información hereditaria. 5.	Se detectan por medio de pruebas genéticas. Fenotipo 1.	Hace referencia a los rasgos observables, por ejemplo, color de ojos, de pelo, etc 2.	Depende del genotipo, el medio ambiente y la alimentación. 3.	La herencia influye parcialmente. 4.	Rasgos observables. 5.	Se detectan visualmente.')
               
 
           .tarjeta.color-acento-contenido.p-3(x="28.6%" y="21%" numero="1")
@@ -199,7 +199,7 @@
 
         .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-14-.png')})`}")
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-14.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
               h5 Selección por <em>pedigree</em>   
               p Es el registro de aquellos individuos que están emparentados o relacionados con el reproductor. La base genética se basa en que el individuo recibe la mitad de los genes del padre. Esta selección consiste en el registro de desempeño de los padres y así ver la capacidad de los individuos de descendencia.
