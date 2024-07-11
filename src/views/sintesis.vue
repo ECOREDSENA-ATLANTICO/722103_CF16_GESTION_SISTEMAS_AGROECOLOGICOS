@@ -12,7 +12,7 @@
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="Muestra el componente formativo en un esquema, la tesis sobre las características y variables de relacionamiento de genes. teniendo en cuenta: Genética, Genotipo y Fenotipo, Estos tipos permiten el proceso: Selección, Rusticidad, Adaptabilidad, Consanguinidad, Esta selección de animales permite el cruce para la reproducción de la especia y también para la calidad de su consumo.")
       .col-auto
-        a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+        a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesiss.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
