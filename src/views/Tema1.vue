@@ -11,51 +11,50 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-4
             figure.mb-5
-              img(src='@/assets/curso/temas/tema1/img-1.png', alt='')
+              img(src='@/assets/curso/temas/tema1/img-1.png', alt='Imagen Decorativa')
 
 
           .col-lg-8
             p Si se quiere entender la genética es importante conocer los trabajos realizados por <b>Gregor Johann Mendel</b> quien es considerado como uno de los padres de la dicha área de estudio, él quiso determinar el proceso de transmisión hereditaria y realizó varios experimentos con guisantes, para dar respuesta a los fundamentos de la transmisión de los caracteres biológicos que se establecen de generación en generación. Este monje austriaco estableció las leyes básicas de la herencia genética mucho antes de que el término “gen” fuera acuñado.
 
             .cajon.color-acento-contenido.p-4.mb-4.fnd-1
-              p Las leyes de Mendel se pueden conocer revisando el siguiente material propuesto:
+              p.mb-0 Las leyes de Mendel se pueden conocer revisando el siguiente material propuesto:
 
       .col-lg-10
-        figure.mb-5
+        figure
           img(src='@/assets/curso/temas/tema1/img-2.svg', alt='¿Qué son? Son reglas básicas sobre la transmisión por herencia genética de las características de los organismos padres a sus hijos. Se pueden determinar como el fundamento de la genética.	Ley de uniformidad: Esta ley dice que si se cruzan dos razas puras, la descendencia de la primera generación filial será fenotípicamente (físicamente) y genotípicamente igual entre sí. Ley de segregación: Las características a heredar se separan, yendo cada uno a un gameto distinto. Consiste en qué del cruce de dos individuos de la primera generación (Aa) tendrá lugar una segunda generación. Ley de independencia: Las características se transmiten entre generaciones de forma independiente unas con otras.  Por lo tanto, el patrón de herencia de un rasgo como el color de ojos no influye en la transmisión en el patrón de herencia de otro rasgo, como el color del pelo.')
     
 
-    .row.justify-content-center.align-items-center.mb-5.fnd-2(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-5.fnd-2.p-5(data-aos="zoom-in-left")
       .col-lg-3
         figure
-          img.img-321(src='@/assets/curso/temas/tema1/img-3-.svg', alt='')
+          img.img-321(src='@/assets/curso/temas/tema1/img-3-.svg', alt='Imagen Decorativa')
       .col-lg-9
         .row.align-items-center
           .col-lg-10
             p Por otro lado, es importante aclarar ciertos conceptos que permitan identificar de manera más clara el objetivo de la genética, entre los que se encuentran el <b>mendelismo complejo</b> que es considerado como una ley relacionada con el no cumplimiento de las leyes de Mendel la cual presenta los genes letales, alelelismo o herencia poligénica.
           .col-lg-2
             figure.mb-5
-              img(src='@/assets/curso/temas/tema1/img-4.svg', alt='')
-        .row.justify-content-center.align-items-center.mb-5
+              img(src='@/assets/curso/temas/tema1/img-4.svg', alt='Imagen Decorativa')
+        .row.justify-content-center.align-items-center
           .col-lg-10.fondo-i.fnd-1.p-5
-            p Por otro lado, la<b> teoría cromosómica</b> de la herencia que fue descubierta por Thomas H. Morgan (1909) y determina que los genes están en los cromosomas de manera lineal, determinan los caracteres hereditarios y que hay uno para para cada cromosoma. Los genes son la unidad de la herencia y controlan las labores del cuerpo, estos se representan de una manera cualitativa (con baja influencia en el medio ambiente como el Rh) y las cuantitativas (alta influencia del medio ambiente como la producción de leche).
+            p.mb-0 Por otro lado, la<b> teoría cromosómica</b> de la herencia que fue descubierta por Thomas H. Morgan (1909) y determina que los genes están en los cromosomas de manera lineal, determinan los caracteres hereditarios y que hay uno para para cada cromosoma. Los genes son la unidad de la herencia y controlan las labores del cuerpo, estos se representan de una manera cualitativa (con baja influencia en el medio ambiente como el Rh) y las cuantitativas (alta influencia del medio ambiente como la producción de leche).
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
-      .col-lg-10.fnd-3
-        
+      .col-lg-10.fnd-3.tarjeta
         .row.justify-content-center.align-items-center.mb-5
           p.pt-5.px-5 Es importante tener en cuenta que los genes actúan de igual forma, pero con diferente acción de la siguiente manera: 
           .col-lg-6
-            .row.fnd-4 
+            .row.fnd-4.tarjeta
               p.mb-0 <b>● Dominancia:</b> este gen se expresa de acuerdo a su alelo y este puede ser completo, incompleto o sobre dominante (heterocigoto, perteneciente a células sexuales con diferentes dotaciones genéticas).
-            .row.fnd-4
+            .row.fnd-4.tarjeta
               p.mb-0 <b>● Aditividad:</b> el gen es independiente al alelo.
-            .row.fnd-4
+            .row.fnd-4.tarjeta
               p.mb-0 <b>● Epítasis:</b> este se influencia en otro alelo.
 
           .col-lg-5.blq-1
             figure
-              img(src='@/assets/curso/temas/tema1/img-5.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/img-5.svg', alt='Imagen Decorativa')
 
     Separador
 
@@ -69,10 +68,10 @@
       )
       .bloque-texto-g__texto.p-4.fnd-5-1
         p.mb-0 La herencia es el resultado de las características que los seres vivos transmiten a sus progenitores, esta se da por medio de los genes del individuo, contiene la información en el cromosoma y se expresa en el ADN. Estos caracteres pueden visualizarse de cuatro formas de genes en el individuo que se exponen en el siguiente material: 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-right")
       .col-lg-10
         p.text-black Haga clic en cada número para acceder a más información:
-        ImagenInfografica.color-acento-botones.mb-5.dott
+        ImagenInfografica.color-acento-botones.dott
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/img-7-.svg', alt='Genotipo, 1.	Hace referencia a la composición genética determinada por el ADN. 2.	Depende de la información hereditaria que es dada de un individuo a otro. 3.	Transmitido hereditariamente de los progenitores a su descendencia. 4.	Contiene toda la información hereditaria. 5.	Se detectan por medio de pruebas genéticas. Fenotipo 1.	Hace referencia a los rasgos observables, por ejemplo, color de ojos, de pelo, etc 2.	Depende del genotipo, el medio ambiente y la alimentación. 3.	La herencia influye parcialmente. 4.	Rasgos observables. 5.	Se detectan visualmente.')
@@ -117,7 +116,7 @@
           ImagenInfografica.color-acento-botones.mb-5.dott
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema1/img-9.svg', alt='')
+                img(src='@/assets/curso/temas/tema1/img-9.svg', alt='Imagen Decorativa')
                 
 
             .tarjeta.color-acento-contenido.p-3(x="32.3%" y="8%" numero="1")
@@ -146,14 +145,14 @@
 
     .row.justify-content-center.align-items-center(data-aos="zoom-in-right")
       .col-lg-12
-        .img-fnd-flot.mb-3
+        .img-fnd-flot
           img.b-img(src='@/assets/curso/temas/tema1/fnd-2.svg' alt='Background Image')
           .fl-box
             .row.align-items-center
               
               .col-lg-2
                   figure 
-                    img.img-95(src='@/assets/curso/temas/tema1/img-10.svg', alt='')
+                    img.img-95(src='@/assets/curso/temas/tema1/img-10.svg', alt='Imagen Decorativa')
               .col-lg-10
                 p.mb-0 Tenga en cuenta que en los grupos de animales las características genotípicas y fenotípicas se pueden evaluar más fácilmente, cuando se utilizan los diferentes cruces, pues la información de los genes se trasmite en los descendientes resultantes al pasar de generación en generación de acuerdo con las leyes mendelianas.
 
@@ -168,13 +167,13 @@
         p Es importante escoger el animal de acuerdo con el color, tasa de crecimiento, condición corporal, producción de leche, índices reproductivos y productivos, entre otros conozcamos las producciones de selección:
       .col-lg-6
         figure 
-          img(src='@/assets/curso/temas/tema1/img-11.png', alt='')
+          img(src='@/assets/curso/temas/tema1/img-11.png', alt='Imagen Decorativa')
 
 
     .row.justify-content-center.align-items-center.mb-5.fnd-7.p-5(data-aos="zoom-in-right")
       .col-lg-11
         figure 
-          img(src='@/assets/curso/temas/tema1/img-12.png', alt='')
+          img(src='@/assets/curso/temas/tema1/img-12.png', alt='Imagen Decorativa')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-8
@@ -184,11 +183,8 @@
 
         p Para conocer los diferentes sistemas de selección se invita a interactuar con el siguiente material:
 
-
-
-
-    .row.justify-content-center.mb-5(data-aos="zoom-in-right")
-      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    .row.justify-content-center.mb-3(data-aos="zoom-in-right")
+      SlyderF(columnas="col-lg-6 col-xl-4")
 
         .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
@@ -239,7 +235,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-6
             figure.mb-3 
-              img(src='@/assets/curso/temas/tema1/img-18.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/img-18.svg', alt='Imagen Decorativa')
 
           .col-lg-6 
             .row.align-items-center.fnd-9.justify-content-start.mb-3
@@ -264,9 +260,9 @@
                 span.ltr 04
               .col-10
                 p.mt-2 Resistir diferentes enfermedades o infecciones que pueden presentarse en el contexto donde se desenvuelve.         
-        .row.justify-content-center.align-items-center.mb-5
+        .row.justify-content-center.align-items-center.mb-3
           .col-lg-8.fnd-1-.p-5
-            p Adquirir las virtudes de rusticidad depende de las razas que se utilicen en las explotaciones, pues estas se adaptan mediante el sistema biológico que posee el animal, una de las especies más comunes en adquirir estos comportamientos son las especies bos indicus en los bovinos y los porcinos las razas <em>duroc</em>.                    
+            p.mb-0 Adquirir las virtudes de rusticidad depende de las razas que se utilicen en las explotaciones, pues estas se adaptan mediante el sistema biológico que posee el animal, una de las especies más comunes en adquirir estos comportamientos son las especies bos indicus en los bovinos y los porcinos las razas <em>duroc</em>.                    
 
 
     Separador
@@ -283,27 +279,27 @@
       
       .col-lg-6
         figure 
-          img(src='@/assets/curso/temas/tema1/img-19.png', alt='')
+          img(src='@/assets/curso/temas/tema1/img-19.png', alt='Imagen Decorativa')
 
     .row.justify-content-center.d-flex.align-items-stretch(data-aos="zoom-in-left")
-      .col-lg-3.fnd-4-.p-3
+      .col-lg-3.fnd-4-.p-3.col-3
         .row.justify-content-center.align-items-center
           .col-lg-8
-            h5.text-center Biológica
+            h5.text-center.mb-0 Biológica
           .col-lg-4
             figure 
-              img(src='@/assets/curso/temas/tema1/img-20.svg', alt='Muestra en componente formativo los tipos de adaptabilidad: Biológica: características de que tiene en cuenta los cambios a nivel fenotípico y molecular que experimentan los organismos con el tiempo. Genética: características animales heredables que favorecen la supervivencia de una población en un medio determinado. En el contexto fisiológico la adaptación es utilizada para detallar el ajuste del ajuste del fenotipo de un organismo a su ambiente. Esto se llama adaptabilidad, adaptación fisiológica o aclimatación')
-      .col-lg-3.fnd-4-.p-3
+              img.pt-1.pb-1(src='@/assets/curso/temas/tema1/img-20.svg', alt='Muestra en componente formativo los tipos de adaptabilidad: Biológica: características de que tiene en cuenta los cambios a nivel fenotípico y molecular que experimentan los organismos con el tiempo. Genética: características animales heredables que favorecen la supervivencia de una población en un medio determinado. En el contexto fisiológico la adaptación es utilizada para detallar el ajuste del ajuste del fenotipo de un organismo a su ambiente. Esto se llama adaptabilidad, adaptación fisiológica o aclimatación')
+      .col-lg-3.fnd-4-.p-3.col-3
         .row.justify-content-center.align-items-center
           .col-lg-8
-            h5.text-center Genética
+            h5.text-center.mb-0 Genética
           .col-lg-4
             figure 
               img(src='@/assets/curso/temas/tema1/img-21.svg', alt='Muestra en componente formativo los tipos de adaptabilidad: Biológica: características de que tiene en cuenta los cambios a nivel fenotípico y molecular que experimentan los organismos con el tiempo. Genética: características animales heredables que favorecen la supervivencia de una población en un medio determinado. En el contexto fisiológico la adaptación es utilizada para detallar el ajuste del ajuste del fenotipo de un organismo a su ambiente. Esto se llama adaptabilidad, adaptación fisiológica o aclimatación')
-      .col-lg-3.fnd-4-.p-3
+      .col-lg-3.fnd-4-.p-3.col-3
         .row.justify-content-center.align-items-center
           .col-lg-8
-            h5.text-center Fisiológica 
+            h5.text-center.mb-0 Fisiológica 
           .col-lg-4
             figure 
               img(src='@/assets/curso/temas/tema1/img-22.svg', alt='Muestra en componente formativo los tipos de adaptabilidad: Biológica: características de que tiene en cuenta los cambios a nivel fenotípico y molecular que experimentan los organismos con el tiempo. Genética: características animales heredables que favorecen la supervivencia de una población en un medio determinado. En el contexto fisiológico la adaptación es utilizada para detallar el ajuste del ajuste del fenotipo de un organismo a su ambiente. Esto se llama adaptabilidad, adaptación fisiológica o aclimatación')              
@@ -337,9 +333,9 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-8
               figure 
-                img(src='@/assets/curso/temas/tema1/img-25.png', alt='') 
+                img(src='@/assets/curso/temas/tema1/img-25.png', alt='Imagen Decorativa') 
             .col-lg-4
-              .row.justify-content-center.align-items-center.mb-5.fnd-3.p-5
+              .row.justify-content-center.align-items-center.mb-5.fnd-3.p-5.tarjeta
                 h5 Consanguinidad estrecha 
                 p Esta se da cuando se aparean animales con características muy cercanas. Padre: hija, madre: hijo o hermanas: hermanos. Esta aumenta el grado de homocigosis (genes idénticos) dando como resultado que genes no deseables se expresen y poder eliminar con facilidad.
 
@@ -347,9 +343,9 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-8
               figure 
-                img(src='@/assets/curso/temas/tema1/img-26.png', alt='') 
+                img(src='@/assets/curso/temas/tema1/img-26.png', alt='Imagen Decorativa') 
             .col-lg-4
-              .row.justify-content-center.align-items-center.mb-5.fnd-3.p-5
+              .row.justify-content-center.align-items-center.mb-5.fnd-3.p-5.tarjeta
                 h5 Consanguinidad abierta 
                 p Se aparean animales con un grado de parentesco más lejano. Tío: sobrino o medio hermano con hermana. Este se realiza para preservar una característica de una raza.
 

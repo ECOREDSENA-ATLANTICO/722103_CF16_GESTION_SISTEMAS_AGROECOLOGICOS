@@ -13,7 +13,7 @@
         .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
           .col-lg-4
             figure 
-              img(src='@/assets/curso/temas/tema3/img-1.svg', alt='') 
+              img(src='@/assets/curso/temas/tema3/img-1.svg', alt='Imagen Decorativa') 
           .col-lg-8
             p Los cruces son una herramienta útil para aumentar la productividad de las explotaciones pecuarias al combinar las características deseadas de las razas para la descendencia.
             p Es fundamental conocer algunos términos para entender los aspectos de los cruzamientos: la heterosis hace referencia al producto de un animal cruzado con respecto a sus progenitores puros, y el término de complementariedad está relacionado con el apareamiento entre razas para extraer los genes indeseables.
@@ -24,7 +24,7 @@
             p Otro aspecto importante es que siempre que se realice un cruce, se debe tener en cuenta la selección de animales y esta se debe seguir por generaciones para no retroceder el material genético; siempre se escogen razas que ya estén adaptadas al medio donde se quiere implementar la producción, el apareamiento debe complementarse por sus características deseadas y siempre se debe cruzar razas diferentes.
           .col-lg-4.p-3
             figure 
-              img(src='@/assets/curso/temas/tema3/img-2.svg', alt='') 
+              img(src='@/assets/curso/temas/tema3/img-2.svg', alt='Imagen Decorativa') 
 
         p Al planear un programa de cruzamiento se deben tener en cuenta los siguientes aspectos:
         .titulo-sexto.color-acento-contenido
@@ -63,49 +63,49 @@
             .row.justify-content-center.mb-5
               .col-lg-6.fnd-13.p-3
                 figure 
-                  img(src='@/assets/curso/temas/tema3/img-5.png', alt='') 
+                  img(src='@/assets/curso/temas/tema3/img-5.png', alt='Imagen Decorativa') 
               .col-lg-6.fnd-14.p-3
                 h5 De primera generación 
                 p Este cruce es entre hembra y macho los cuales aportan la mitad de su información genética, 50% y 50%. Su descendiente es un F1, este depende de los progenitores y desarrolla un vigor híbrido, por lo cual se utiliza para animales de venta comercial.
 
                 figure 
-                  img.img-420(src='@/assets/curso/temas/tema3/img-6.svg', alt='') 
+                  img.img-420(src='@/assets/curso/temas/tema3/img-6.svg', alt='Imagen Decorativa') 
 
           div(x="78.1%" y="43.2%" tooltip="Nueva raza compuesta" numero="2")
             .row.justify-content-center.mb-5
               .col-lg-6.fnd-13.p-3
                 figure 
-                  img(src='@/assets/curso/temas/tema3/img-7.png', alt='') 
+                  img(src='@/assets/curso/temas/tema3/img-7.png', alt='Imagen Decorativa') 
               .col-lg-6.fnd-15.p-3
                 h5 Nueva raza compuesta 
                 p Este cruce se utiliza para crear una nueva raza de dos ya conocidas hasta obtener un 5/8 X 3/8 (37,55% – 62,5%) se debe tener en cuenta que se aparean las hembras de cada cruzamiento con toros diferentes sin salirse de las razas escogidas.
 
                 figure 
-                  img.img-420(src='@/assets/curso/temas/tema3/img-8.svg', alt='') 
+                  img.img-420(src='@/assets/curso/temas/tema3/img-8.svg', alt='Imagen Decorativa') 
 
           div(x="59.2%" y="57.9%" tooltip="Sustitución racial" numero="3")
             .row.justify-content-center.mb-5
               .col-lg-6.fnd-13.p-3
                 figure 
-                  img(src='@/assets/curso/temas/tema3/img-9.png', alt='') 
+                  img(src='@/assets/curso/temas/tema3/img-9.png', alt='Imagen Decorativa') 
               .col-lg-6.fnd-16.p-3
                 h5 Sustitución racial  
                 p Este cruce busca absorber una raza después de la tercera generación, cuando la proporción es 90% o 15/16 se considera animal puro. Una de las ventajas es que se expresa el vigor híbrido, pero requiere aproximadamente 12 años y se necesita tener registros de reproducción. Con un alto nivel de descarte de hembras por la alta disgregación racial, pero con una alta presión de selección se logran fijar las características fenotípicas y productivas.
 
                 figure 
-                  img.img-420(src='@/assets/curso/temas/tema3/img-10.png', alt='') 
+                  img.img-420(src='@/assets/curso/temas/tema3/img-10.png', alt='Imagen Decorativa') 
 
           div(x="87.1%" y="77.2%" tooltip="Cruces alternos" numero="4")
             .row.justify-content-center.mb-5
               .col-lg-6.fnd-13.p-3
                 figure 
-                  img(src='@/assets/curso/temas/tema3/img-11.png', alt='') 
+                  img(src='@/assets/curso/temas/tema3/img-11.png', alt='Imagen Decorativa') 
               .col-lg-6.fnd-17.p-3
                 h5.pp1 Cruces alternos
                 p.pp1 La utilización de la heterosis para aprovechar y complementar las bondades de cada raza, puede utilizarse entre dos a cuatro razas en función de las habilidades productivas y adaptabilidad al medio ambiente de cada una. Muy utilizada en sistemas doble propósito, pues salen adaptadas al trópico.
 
                 figure 
-                  img.img-420(src='@/assets/curso/temas/tema3/img-12.png', alt='') 
+                  img.img-420(src='@/assets/curso/temas/tema3/img-12.png', alt='Imagen Decorativa') 
 
     Separador
 
