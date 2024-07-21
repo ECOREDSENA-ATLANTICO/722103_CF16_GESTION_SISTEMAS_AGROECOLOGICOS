@@ -217,21 +217,69 @@
               p Es una selección muy precisa y consiste en seleccionar animales de acuerdo con su descendencia para escoger los padres de los cuales se revisan características como peso al destete, condición corporal, entre otras.
 
 
+
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema1/img-16.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Reporte de ventas diarias
+            p.mb-0 Con este tipo de reportes, los gerentes podrán supervisar específicamente, la labor de cada vendedor y de esta manera, saber en qué les va bien y en cuáles actos hay que mejorar. Aquí también, va a encontrar si su fuerza de ventas está entendiendo sus estrategias y le sea más fácil incentivarlos a aumentar su productividad.
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema1/img-16.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Reporte de ventas semanal
+            p.mb-0 Con estos reportes semanales, podrá encontrar las dificultades que pueda tener algún o algunos vendedores y evitar que se pierdan los clientes fijos. Reportar semanalmente, le permite tener un equipo de ventas fortalecido y bien direccionado, con las correcciones necesarias para lograr las metas de ventas propuestas.
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema1/img-16.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Reporte de ventas mensuales
+            p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.
+
+
+
     Separador
 
     #t-1-4.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 1.4 Rusticidad 
 
+
+       
+
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-lg-10
-        .crd_02.mb-5
-          .crd_02__icon.dan
-            img(src="@/assets/curso/temas/tema1/img-17.png", alt="alt")          
-          .crd_02__txt
-            p Este concepto dentro del entorno animal hace referencia al conjunto de características hereditarias que facilitan la adaptación del animal a las diferentes variaciones del medio ambiente, sin que se vea afectada su capacidad productiva.
-            p La rusticidad se da a través de la selección natural y está relacionado con producción extensiva en donde el ser humano interviene muy poco; esta se da en ambientes naturales, es decir que el medio no se modifica, más bien es el animal el que debe adaptarse a las variaciones del medio.
-            p La rusticidad es la capacidad que tiene el animal para:
-    
+       
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/temas/tema1/img-17.png', alt='')
+          .tarjeta.clr-lightorange
+            .p-4
+              p Este concepto dentro del entorno animal hace referencia al conjunto de características hereditarias que facilitan la adaptación del animal a las diferentes variaciones del medio ambiente, sin que se vea afectada su capacidad productiva.
+              p La rusticidad se da a través de la selección natural y está relacionado con producción extensiva en donde el ser humano interviene muy poco; esta se da en ambientes naturales, es decir que el medio no se modifica, más bien es el animal el que debe adaptarse a las variaciones del medio.
+              p.mb-0 La rusticidad es la capacidad que tiene el animal para:
+
+       
+      .col-sm-6.col-lg-2.mb-5.mb-lg-0
+        .tarjeta.tarjeta-foto-hover
+          .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/tema1/img-17.png' alt='Imagen Decorativa')
+          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-3.color4
+            h4.text-center.mb-0.text-verde-claro Pueblo Indígena
+          .tarjeta-foto-hover__tarjeta.color4.d-flex.align-items-center.justify-content-center
+            .px-5.px-lg-2
+              p.text-bold.text-center.text-verde-claro Pueblo Indígena
+              p.m-0.text-center.t_text.text-white Conjunto de familias de ascendencia amerindia que comparten vínculos y sentimientos de identificación con su pasado aborigen, conservando rasgos y valores propios de su cultura tradicional, así como formas de organización y control social propios que los distinguen de otros grupos étnicos.
+      
+
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-6
             figure.mb-3 

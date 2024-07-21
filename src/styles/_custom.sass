@@ -260,40 +260,6 @@
 
 
 
-$crd-icon-size: 166px
-$crd-padding: 1.5rem
-$crd-width: calc(100% - ((#{$crd-icon-size} / 2)) 
-
-.crd_02 
-  position: relative
-  display: flex
-  flex-direction: row
-  justify-content: start
-  align-items: center 
-  padding: 1.5rem 1.5rem 1.5rem 0   
-  z-index: 1
-
-  &::before
-    content: ""
-    position: absolute
-    top: 0
-    right: 0
-    width: $crd-width
-    height: 100%    
-    background-color: #FFD3C2
-    border-radius: 15px
-    z-index: -1
-  &__icon
-    order: 1
-    flex-basis: auto
-    width: $crd-icon-size
-    margin-right: 15px
-    img   
-      width: $crd-icon-size
-  &__txt
-    flex: 1 
-    order: 2    		    
-
 .img-fnd-flot
   position: relative
   width: 100%
@@ -303,8 +269,10 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
     padding: 20px
     border-radius: 1rem
     margin-top: 1rem
+  
   .b-img
     display: none
+  
   @media (min-width: 1200px)
     .b-img
       display: block
@@ -323,9 +291,6 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
       border-radius: 1rem
       p
         color: black
-
-
-
 
 .img-fnd-flot2
   position: relative
@@ -361,9 +326,13 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
       color: #fff
       padding: 20px
       border-radius: 1rem
+      
       p
         color: black
 
+.img-t
+  width: auto
+  height: auto
 
-
-
+.clr-lightorange
+  background-color: #FFD3C2
