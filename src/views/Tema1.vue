@@ -268,17 +268,6 @@
               p La rusticidad se da a través de la selección natural y está relacionado con producción extensiva en donde el ser humano interviene muy poco; esta se da en ambientes naturales, es decir que el medio no se modifica, más bien es el animal el que debe adaptarse a las variaciones del medio.
               p.mb-0 La rusticidad es la capacidad que tiene el animal para:
 
-       
-      .col-sm-6.col-lg-2.mb-5.mb-lg-0
-        .tarjeta.tarjeta-foto-hover
-          .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/tema1/img-17.png' alt='Imagen Decorativa')
-          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-3.color4
-            h4.text-center.mb-0.text-verde-claro Pueblo Indígena
-          .tarjeta-foto-hover__tarjeta.color4.d-flex.align-items-center.justify-content-center
-            .px-5.px-lg-2
-              p.text-bold.text-center.text-verde-claro Pueblo Indígena
-              p.m-0.text-center.t_text.text-white Conjunto de familias de ascendencia amerindia que comparten vínculos y sentimientos de identificación con su pasado aborigen, conservando rasgos y valores propios de su cultura tradicional, así como formas de organización y control social propios que los distinguen de otros grupos étnicos.
-      
 
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-6
