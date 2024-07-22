@@ -111,7 +111,10 @@
   border: #ADCE32 solid 4px
   border-radius: 2rem
   padding: 10px
-
+.fnd-18
+  background-color: #0B481E  !important  
+  h4, p, h5
+    color: white !important 
 .nar
   font-size: 0.6rem !important
   margin-top: 0.4%
@@ -336,3 +339,36 @@
 
 .clr-lightorange
   background-color: #FFD3C2
+
+
+
+.crd_hover_txt 
+  position: relative
+  padding: 0!important
+  overflow: hidden!important
+
+
+.crd_hover_txt:hover .crd_hover_txt--body 
+  transition: all .5s ease-in-out
+  transform: translateY(0)
+
+
+.crd_hover_txt .crd_hover_txt--body 
+  position: absolute
+  padding: 1.5rem
+  bottom: 0
+  transition: all .5s ease-in-out
+  transform: translateY(calc(100% - 4.85rem))
+  background-color: #fff7e6
+
+
+@media (min-width: 1200px) and (max-width:1400px) 
+  .crd_hover_txt .crd_hover_txt--body p 
+      font-size: 0.85em
+
+
+@media (max-width:380px) 
+  .crd_hover_txt--img 
+      padding-bottom: 40px
+      border: 1px solid red 
+        

@@ -186,75 +186,51 @@
     .row.justify-content-center.mb-3(data-aos="zoom-in-right")
       SlyderF(columnas="col-lg-6 col-xl-4")
 
-        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-13.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Selección masal o fenotípica 
-              p En esta selección los animales son elegidos para la reproducción "teniendo en cuenta su propio fenotipo”; además, se tienen en cuenta sus diferentes méritos o desempeños. Dicha selección parte de los resultados de  diferentes pruebas de producción o comportamiento. 
-
-        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-14.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Selección por <em>pedigree</em>   
-              p Es el registro de aquellos individuos que están emparentados o relacionados con el reproductor. La base genética se basa en que el individuo recibe la mitad de los genes del padre. Esta selección consiste en el registro de desempeño de los padres y así ver la capacidad de los individuos de descendencia.
-
-
-        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-15.png')})`}")
-            .tarjeta-slide__contenido.pt-4.p-xl-5.px-5
-              h5 Selección basada en los parientes colaterales (familia)
-              p En esta selección se tiene en cuenta los parientes que no son descendientes y que tengan genes en común y que probablemente, se transmitirán en la descendencia. <br> Si la información sobre los parientes colaterales es completa puede dar luces sobre  las clases y combinaciones de genes que el individuo en cuestión probablemente posea. 
-
-
-        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-16.png')})`}")
-            .tarjeta-slide__contenido.pt-4.p-xl-5.px-5
-              h5 Selección por pruebas de progenie
-              p Es una selección muy precisa y consiste en seleccionar animales de acuerdo con su descendencia para escoger los padres de los cuales se revisan características como peso al destete, condición corporal, entre otras.
 
 
 
-    .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema1/img-16.png", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3 Reporte de ventas diarias
-            p.mb-0 Con este tipo de reportes, los gerentes podrán supervisar específicamente, la labor de cada vendedor y de esta manera, saber en qué les va bien y en cuáles actos hay que mejorar. Aquí también, va a encontrar si su fuerza de ventas está entendiendo sus estrategias y le sea más fácil incentivarlos a aumentar su productividad.
+        .mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left")
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/temas/tema1/img-13.png", alt="alt")
+            .crd_hover_txt--body.fnd-18 
+              h5.mb-3 Selección masal o <br>fenotípica
+              p.mb-0 En esta selección los animales son elegidos para la reproducción "teniendo en cuenta su propio fenotipo”; además, se tienen en cuenta sus diferentes méritos o desempeños. Dicha selección parte de los resultados de  diferentes pruebas de producción o comportamiento. 
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema1/img-16.png", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3 Reporte de ventas semanal
-            p.mb-0 Con estos reportes semanales, podrá encontrar las dificultades que pueda tener algún o algunos vendedores y evitar que se pierdan los clientes fijos. Reportar semanalmente, le permite tener un equipo de ventas fortalecido y bien direccionado, con las correcciones necesarias para lograr las metas de ventas propuestas.
-
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema1/img-16.png", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3 Reporte de ventas mensuales
-            p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.
+        .mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left")
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/temas/tema1/img-14.png", alt="alt")
+            .crd_hover_txt--body.fnd-18 
+              h5.mb-3 Selección por <br> <em>pedigree</em>   
+              p.mb-0 Es el registro de aquellos individuos que están emparentados o relacionados con el reproductor. La base genética se basa en que el individuo recibe la mitad de los genes del padre. Esta selección consiste en el registro de desempeño de los padres y así ver la capacidad de los individuos de descendencia.
 
 
+        .mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left")
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/temas/tema1/img-15.png", alt="alt")
+            .crd_hover_txt--body.fnd-18 
+              h5.mb-3 Selección basada en los parientes colaterales (familia)
+              p.mb-0 En esta selección se tiene en cuenta los parientes que no son descendientes y que tengan genes en común y que probablemente, se transmitirán en la descendencia. <br> Si la información sobre los parientes colaterales es completa puede dar luces sobre  las clases y combinaciones de genes que el individuo en cuestión probablemente posea. 
+        .mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left")
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/temas/tema1/img-16.png", alt="alt")
+            .crd_hover_txt--body.fnd-18 
+              h5.mb-3 Selección por pruebas <br>de progenie
+              p.mb-0 Es una selección muy precisa y consiste en seleccionar animales de acuerdo con su descendencia para escoger los padres de los cuales se revisan características como peso al destete, condición corporal, entre otras.
+      
 
     Separador
 
     #t-1-4.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 1.4 Rusticidad 
-
-
-       
+      
 
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-lg-10
@@ -319,21 +295,21 @@
           img(src='@/assets/curso/temas/tema1/img-19.png', alt='Imagen Decorativa')
 
     .row.justify-content-center.d-flex.align-items-stretch(data-aos="zoom-in-left")
-      .col-lg-3.fnd-4-.p-3.col-3
+      .col-lg-3.fnd-4-.p-3.col-6
         .row.justify-content-center.align-items-center
           .col-lg-8
             h5.text-center.mb-0 Biológica
           .col-lg-4
             figure 
               img.pt-1.pb-1(src='@/assets/curso/temas/tema1/img-20.svg', alt='Muestra en componente formativo los tipos de adaptabilidad: Biológica: características de que tiene en cuenta los cambios a nivel fenotípico y molecular que experimentan los organismos con el tiempo. Genética: características animales heredables que favorecen la supervivencia de una población en un medio determinado. En el contexto fisiológico la adaptación es utilizada para detallar el ajuste del ajuste del fenotipo de un organismo a su ambiente. Esto se llama adaptabilidad, adaptación fisiológica o aclimatación')
-      .col-lg-3.fnd-4-.p-3.col-3
+      .col-lg-3.fnd-4-.p-3.col-6
         .row.justify-content-center.align-items-center
           .col-lg-8
             h5.text-center.mb-0 Genética
           .col-lg-4
             figure 
               img(src='@/assets/curso/temas/tema1/img-21.svg', alt='Muestra en componente formativo los tipos de adaptabilidad: Biológica: características de que tiene en cuenta los cambios a nivel fenotípico y molecular que experimentan los organismos con el tiempo. Genética: características animales heredables que favorecen la supervivencia de una población en un medio determinado. En el contexto fisiológico la adaptación es utilizada para detallar el ajuste del ajuste del fenotipo de un organismo a su ambiente. Esto se llama adaptabilidad, adaptación fisiológica o aclimatación')
-      .col-lg-3.fnd-4-.p-3.col-3
+      .col-lg-3.fnd-4-.p-3.col-6
         .row.justify-content-center.align-items-center
           .col-lg-8
             h5.text-center.mb-0 Fisiológica 

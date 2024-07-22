@@ -128,15 +128,15 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-up-left")
       .col-lg-12
-        .tarjeta.color-primario.p-3.fnd-12
+        .tarjeta.p-3.fnd-12
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/temas/tema2/img-9.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Descripción de cada raza porcina 
-                  p En el siguiente documento se podrán conocer a profundidad las características fundamentales de cada una de las razas en esta categoría. 
+                  h3.mb-1.text-white Descripción de cada raza porcina 
+                  p.text-white En el siguiente documento se podrán conocer a profundidad las características fundamentales de cada una de las razas en esta categoría. 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Descripcion de cada raza porcina.pdf')" target="_blank" type="application/pdf")
                     span Enlace
