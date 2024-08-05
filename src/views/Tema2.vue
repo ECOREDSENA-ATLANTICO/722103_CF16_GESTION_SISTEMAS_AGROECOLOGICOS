@@ -56,11 +56,11 @@
       )
       .bloque-texto-g__texto.p-4
         h3 Razas porcinas <br>
-        p.mb-0 Son animales pesados y redondos con un hocico prominente, con patas cortas y dotados de pezuñas, con cola pequeña, piel gruesa y de acuerdo con la raza es el pelaje y coloración.
+        p.mb-0 Son animales pesados y redondos, con un hocico prominente, con patas cortas y dotados de pezuñas, con cola pequeña, piel gruesa y de acuerdo con la raza es el pelaje y coloración.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-right")
       .col-lg-10
-        p Para conocer las diferentes categorías de razas porcinas se debe consultar el siguiente material:
+        p Para conocer las diferentes categorías de razas porcinas se debe revisar con atención la siguiente información:
 
         ImagenInfograficaB.color-acento-botones.dott2
           template(v-slot:imagen)

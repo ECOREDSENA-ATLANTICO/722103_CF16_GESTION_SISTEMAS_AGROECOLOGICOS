@@ -7,15 +7,15 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="")
+            img(src="@/assets/template/Arrastrar_Soltar.svg", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Afianzando conceptos sobre el proceso de cruzamiento en especies pecuarias 
-        p.mb-4 #[b Reforzar los elementos conceptuales para el manejo de los diferentes cruzamientos en especies pecuarias tomando como base los procesos genéticos y reproductivos. ] 
+        p.mb-4  Reforzar los elementos conceptuales para el manejo de los diferentes cruzamientos en especies pecuarias tomando como base los procesos genéticos y reproductivos. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 De acuerdo al enunciado planteado en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha.
+              p.fw-bold.mb-0 Relacionar términos
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar

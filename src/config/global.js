@@ -87,7 +87,7 @@ export default {
           },
           {
             numero: '3.2',
-            titulo: 'Grupos sub raciales',
+            titulo: 'Grupos subraciales',
             hash: 't-3-2',
           },
         ],

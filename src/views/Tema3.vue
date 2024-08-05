@@ -50,7 +50,7 @@
       h2 3.1 Tipos de cruzamientos 
 
 
-    p.mb-3 Dentro del proceso de reproducción existen diferentes formas de cruzamiento, por lo que se sugiere revisar el siguiente material:
+    p.mb-3 Dentro del proceso de reproducción existen diferentes formas de cruzamiento, por lo que se sugiere revisar la siguiente información:
     .row.justify-content-center.align-items-center.mb-5.fnd-9-(data-aos="fade-left")
       .col-lg-11
         ImagenInfograficaB.color-acento-botones.dott3
@@ -63,56 +63,56 @@
             .row.justify-content-center.mb-5
               .col-lg-6.fnd-13.p-3
                 figure 
-                  img(src='@/assets/curso/temas/tema3/img-5.png', alt='Imagen Decorativa') 
+                  img(src='@/assets/curso/temas/tema3/img-5.png', alt='') 
               .col-lg-6.fnd-14.p-3
                 h5 De primera generación 
                 p Este cruce es entre hembra y macho los cuales aportan la mitad de su información genética, 50% y 50%. Su descendiente es un F1, este depende de los progenitores y desarrolla un vigor híbrido, por lo cual se utiliza para animales de venta comercial.
 
                 figure 
-                  img.img-420(src='@/assets/curso/temas/tema3/img-6.svg', alt='Imagen Decorativa') 
+                  img.img-420(src='@/assets/curso/temas/tema3/img-6.svg', alt='De primera generación:  Este cruce es entre hembra y macho los cuales aportan la mitad de su información genética, 50% y 50%. Su descendiente es un F1, este depende de los progenitores y desarrolla un vigor híbrido, por lo cual se utiliza para animales de venta comercial.') 
 
           div(x="78.1%" y="43.2%" tooltip="Nueva raza compuesta" numero="2")
             .row.justify-content-center.mb-5
               .col-lg-6.fnd-13.p-3
                 figure 
-                  img(src='@/assets/curso/temas/tema3/img-7.png', alt='Imagen Decorativa') 
+                  img(src='@/assets/curso/temas/tema3/img-7.png', alt='') 
               .col-lg-6.fnd-15.p-3
                 h5 Nueva raza compuesta 
                 p Este cruce se utiliza para crear una nueva raza de dos ya conocidas hasta obtener un 5/8 X 3/8 (37,55% – 62,5%) se debe tener en cuenta que se aparean las hembras de cada cruzamiento con toros diferentes sin salirse de las razas escogidas.
 
                 figure 
-                  img.img-420(src='@/assets/curso/temas/tema3/img-8.svg', alt='Imagen Decorativa') 
+                  img.img-420(src='@/assets/curso/temas/tema3/img-8.svg', alt='Nueva raza compuesta: este cruce se utiliza para crear una nueva raza de dos ya conocidas hasta obtener un 5/8 X 3/8 (37.55% – 62.5%) se debe tener en cuenta que se aparea las hembras de cada cruzamiento con toros diferentes sin salirse de las razas escogidas.') 
 
           div(x="59.2%" y="57.9%" tooltip="Sustitución racial" numero="3")
             .row.justify-content-center.mb-5
               .col-lg-6.fnd-13.p-3
                 figure 
-                  img(src='@/assets/curso/temas/tema3/img-9.png', alt='Imagen Decorativa') 
+                  img(src='@/assets/curso/temas/tema3/img-9.png', alt='') 
               .col-lg-6.fnd-16.p-3
                 h5 Sustitución racial  
                 p Este cruce busca absorber una raza después de la tercera generación, cuando la proporción es 90% o 15/16 se considera animal puro. Una de las ventajas es que se expresa el vigor híbrido, pero requiere aproximadamente 12 años y se necesita tener registros de reproducción. Con un alto nivel de descarte de hembras por la alta disgregación racial, pero con una alta presión de selección se logran fijar las características fenotípicas y productivas.
 
                 figure 
-                  img.img-420(src='@/assets/curso/temas/tema3/img-10.png', alt='Imagen Decorativa') 
+                  img.img-420(src='@/assets/curso/temas/tema3/img-10.png', alt='Sustitución racial: este cruce busca absorber una raza después de la tercera generación, cuando la proporción es 90% o 15/16 se considera animal puro, una de la ventaja es que se expresa el vigor hibrido pero requiere aproximadamente 12 años y se necesita tener registros de reproducción. Con un alto nivel de descarte de hembras por la alta disgregación racial), pero con una alta presión de selección se logran fijar las características fenotípicas y productivas.') 
 
           div(x="87.1%" y="77.2%" tooltip="Cruces alternos" numero="4")
             .row.justify-content-center.mb-5
               .col-lg-6.fnd-13.p-3
                 figure 
-                  img(src='@/assets/curso/temas/tema3/img-11.png', alt='Imagen Decorativa') 
+                  img(src='@/assets/curso/temas/tema3/img-11.png', alt='') 
               .col-lg-6.fnd-17.p-3
                 h5.pp1 Cruces alternos
                 p.pp1 La utilización de la heterosis para aprovechar y complementar las bondades de cada raza, puede utilizarse entre dos a cuatro razas en función de las habilidades productivas y adaptabilidad al medio ambiente de cada una. Muy utilizada en sistemas doble propósito, pues salen adaptadas al trópico.
 
                 figure 
-                  img.img-420(src='@/assets/curso/temas/tema3/img-12.png', alt='Imagen Decorativa') 
+                  img.img-420(src='@/assets/curso/temas/tema3/img-12.png', alt='Cruces alternos: la utilización de la Heterosis, para aprovechar y complementar las bondades de cada raza, y puede utilizarse entre dos a 4 razas en función de las habilidades productivas y adaptabilidad al medio ambiente de cada una. Muy utilizada en sistemas doble propósito pues salen adaptado al trópico.') 
 
     Separador
 
     #t-3-2.titulo-segundo.color-acento-contenido(data-aos="fade-down")
       h2 3.2 Grupos subraciales 
 
-    p Los grupos genéticos diferenciados, sean razas u otras estructuras subraciales como línea, estirpes y variedad, deben tener características heredables que los distingan y diferencien entre sí y del resto de las especies, por eso es importante conocer, por medio del siguiente material, la definición de esas estructuras para entenderlas y poder identificar al verlas en la vida productiva:
+    p Los grupos genéticos diferenciados, sean razas u otras estructuras subraciales como línea, estirpes y variedad, deben tener características heredables que los distingan y diferencien entre sí y del resto de las especies, por eso es importante conocer, por medio de la siguiente información, la definición de esas estructuras para entenderlas y poder identificar al verlas en la vida productiva:
   
 
 

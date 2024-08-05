@@ -32,13 +32,13 @@
       .col-lg-9
         .row.align-items-center
           .col-lg-10
-            p Por otro lado, es importante aclarar ciertos conceptos que permitan identificar de manera más clara el objetivo de la genética, entre los que se encuentran el <b>mendelismo complejo</b> que es considerado como una ley relacionada con el no cumplimiento de las leyes de Mendel la cual presenta los genes letales, alelelismo o herencia poligénica.
+            p Por otro lado, es importante aclarar ciertos conceptos que permitan identificar de manera más clara el objetivo de la genética, entre los que se encuentran el <b>mendelismo complejo</b> que es considerado como una ley relacionada con el no cumplimiento de las leyes de Mendel la cual presenta los genes letales, alelismo o herencia poligénica.
           .col-lg-2
             figure.mb-5
               img(src='@/assets/curso/temas/tema1/img-4.svg', alt='Imagen Decorativa')
         .row.justify-content-center.align-items-center
           .col-lg-10.fondo-i.fnd-1.p-5
-            p.mb-0 Por otro lado, la<b> teoría cromosómica</b> de la herencia que fue descubierta por Thomas H. Morgan (1909) y determina que los genes están en los cromosomas de manera lineal, determinan los caracteres hereditarios y que hay uno para para cada cromosoma. Los genes son la unidad de la herencia y controlan las labores del cuerpo, estos se representan de una manera cualitativa (con baja influencia en el medio ambiente como el Rh) y las cuantitativas (alta influencia del medio ambiente como la producción de leche).
+            p.mb-0 Por otro lado, la<b> teoría cromosómica</b> de la herencia que fue descubierta por Thomas H. Morgan (1909) y determina que los genes están en los cromosomas de manera lineal, determinan los caracteres hereditarios y que hay uno para cada cromosoma. Los genes son la unidad de la herencia y controlan las labores del cuerpo, estos se representan de una manera cualitativa (con baja influencia en el medio ambiente como el Rh) y las cuantitativas (alta influencia del medio ambiente como la producción de leche).
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-lg-10.fnd-3.tarjeta
@@ -107,7 +107,7 @@
           .bloque-texto-g__texto.p-4.fnd-5-1
             p.mb-0 El fenotipo se identifica con las características físicas y perceptibles al ojo humano de un individuo y los ejemplos más comunes son el color del pelo, longitud de los cuernos, peso del destete, entre otros. El fenotipo puede ser modificado por el ambiente pues este cambia en el transcurso de la vida de los animales como respuesta a los factores climáticos. En resumen, el fenotipo es genotipo + medio ambiente = fenotipo.
 
-        p.mb-5  Para entender mejor la diferencia de estos dos términos, se invita a revisar con atención el siguiente recurso:
+        p.mb-5  Para entender mejor la diferencia de estos dos términos, se invita a revisar con atención la siguiente información:
         .titulo-cuarto.color-acento-contenido
           h4 Diferencia entre genotipo y fenotipo     
         
@@ -164,7 +164,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-6
         p La selección es el proceso en el cual se obtienen o escogen los individuos de una generación para dejarlos como reproductores u otro fin. Este proceso permite elegir los animales con características genotípicas y fenotípicas deseables, para realizarlo se deben tener en cuenta dos pasos muy importantes, el primero consiste en la identificación del animal y segundo la selección del animal el cual será utilizado como padre para las siguientes generaciones.
-        p Es importante escoger el animal de acuerdo con el color, tasa de crecimiento, condición corporal, producción de leche, índices reproductivos y productivos, entre otros conozcamos las producciones de selección:
+        p Es importante escoger el animal de acuerdo con el color, tasa de crecimiento, condición corporal, producción de leche, índices reproductivos y productivos, entre otros, conozcamos las producciones de selección:
       .col-lg-6
         figure 
           img(src='@/assets/curso/temas/tema1/img-11.png', alt='Imagen Decorativa')
@@ -181,7 +181,7 @@
           h3 Sistemas de selección:
           p La selección es una de las fuerzas que cambia la frecuencia genética de la población con una tasa reproductiva diferencial en el hato, mediante un proceso que permite a unos individuos reproducirse y a otros no.
 
-        p Para conocer los diferentes sistemas de selección se invita a interactuar con el siguiente material:
+        p Para conocer los diferentes sistemas de selección se invita a revisar con atención la siguiente información:
 
     .row.justify-content-center.mb-3(data-aos="zoom-in-right")
       SlyderF(columnas="col-lg-6 col-xl-4")
@@ -275,7 +275,7 @@
                 p.mt-2 Resistir diferentes enfermedades o infecciones que pueden presentarse en el contexto donde se desenvuelve.         
         .row.justify-content-center.align-items-center.mb-3
           .col-lg-8.fnd-1-.p-5
-            p.mb-0 Adquirir las virtudes de rusticidad depende de las razas que se utilicen en las explotaciones, pues estas se adaptan mediante el sistema biológico que posee el animal, una de las especies más comunes en adquirir estos comportamientos son las especies bos indicus en los bovinos y los porcinos las razas <em>duroc</em>.                    
+            p.mb-0 Adquirir las virtudes de rusticidad depende de las razas que se utilicen en las explotaciones, pues estas se adaptan mediante el sistema biológico que posee el animal, una de las especies más comunes en adquirir estos comportamientos son las especies <em>bos indicus</em> en los bovinos y los porcinos las razas <em>duroc</em>.                    
 
 
     Separador
@@ -329,7 +329,7 @@
             .b-img3
               img.b-img3.mb-3(src='@/assets/curso/temas/tema1/img-23.png' alt='Background Image')
             p.m-t Es la relación de genes cuando se aparean animales emparentados con antepasados comunes, por lo general hasta en cuatro generaciones esta puede traer consecuencias en los nuevos individuos. 
-            p Los tipos de consanguinidad se profundizan en el siguiente material:
+            p Los tipos de consanguinidad se profundizan a continuación:
 		
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-10
