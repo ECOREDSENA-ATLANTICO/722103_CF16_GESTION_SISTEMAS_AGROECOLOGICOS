@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Cruzamiento en especies pecuarias',
     descripcionCurso:
       'Este componente formativo tiene como fin dar a conocer los fundamentos y los diferentes procesos en la implementación de la genética entre lo que están: selección, cruzamientos, especie animal, razas autóctonas y reproductoras, entre otros, los cuales pueden ser aplicados como estrategias en especies pecuarias para el proceso de explotaciones.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
