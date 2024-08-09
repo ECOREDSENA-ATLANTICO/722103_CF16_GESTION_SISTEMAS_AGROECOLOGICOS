@@ -28,7 +28,7 @@
 
         p Al planear un programa de cruzamiento se deben tener en cuenta los siguientes aspectos:
         .titulo-sexto.color-acento-contenido
-          h5 Figura 1.
+          
           span Planeación para cruzamientos
 
         
